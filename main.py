@@ -1,10 +1,3 @@
-grades = {
-  "Hemali":95,
-  "Aman":97,
-  "Dev":98
-}
+print('Hello World')
 
-grades["Harsh"] = 45
-# print(grades)
-for key in grades:
-  print(grades[key])
+print("Hello " + input("What is your name? "))
