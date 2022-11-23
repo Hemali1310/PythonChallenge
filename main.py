@@ -1,3 +1,5 @@
-print('Hello World')
+def myfunc():
+  print("hello, hemali")
+  print("How are you doing?")
 
-print("Hello " + input("What is your name? "))
+myfunc()
