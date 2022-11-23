@@ -1,3 +1,5 @@
-print('Hello World')
+fruit = [1,2,3,4,5]
 
-print("Hello " + input("What is your name? "))
+for fruits in fruit:
+  print(fruits)
+  # print(fruit)
