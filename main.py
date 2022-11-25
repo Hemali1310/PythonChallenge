@@ -2,7 +2,7 @@ from random import *
 
 randomnum = randint(1, 100)
 # print(randomnum)
-print("Welcome to number guessing game.")
+print("Welcome to number guessing game. \nGuess a number between 1 to 100.")
 level = input("Please choose difficulty level 'easy' or 'hard': ")
 print(level)
 
@@ -17,9 +17,9 @@ for i in range(level+1, 0, -1):
   if i > 0:
     num = int(input("Please guess a number: "))
     if num < randomnum:
-      print(f"Guess num is bigger than {num}")
+      print(f"Guess number is bigger than {num}")
     elif num > randomnum:
-      print(f"Guess num is smaller than {num}")
+      print(f"Guess number is smaller than {num}")
     elif num == randomnum:
       print("Woho! you guess the number.")
       break
